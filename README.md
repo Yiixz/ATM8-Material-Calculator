@@ -1,1 +1,3 @@
 # ATM8-Material-Calculator
+
+Material crafting calculator to help with finding the amount of materials to craft items with long trees or large # of items.
