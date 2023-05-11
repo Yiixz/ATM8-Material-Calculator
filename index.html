@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>ATM8 Material Calculator</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1 id="title" class="title position-relative">
+      <span class="badge bg-dark position-absolute top-10 start-50 translate-middle-x">ATM8 Material Calculator (WIP)
+         <h6 id="subtitle">
+            <span class="badge bg-dark position-absolute top-0 start-100">Made by Yixz & Tehez</span>
+         </h6>
+      </span>
+   </h1>
+
+   <div id="main">
+      <div id="filter-section" class="container">
+         <div class="row">
+            <div class="col-2">
+               <label for="count" class="visually-hidden">Count:</label>
+               <input type="number" class="form-control" id="count" placeholder="Amount" min="1">
+            </div>
+            <div class="col-3">
+               <label for="filter" class="visually-hidden">Search Materials...</label>
+               <input type="text" class="form-control" id="filter" placeholder="Search Materials...">
+            </div>
+
+            <div class="col-2">
+               <div id="category">
+                  <input class="form-control" list="category-filter" id="categories" placeholder="Search Categories...">
+
+                  <datalist id="category-filter">
+                     <option value="All">
+                     <option value="Misc">
+                     <option value="Block">
+                     <option value="Part">
+                     <option value="Disk">
+                     <option value="Core">
+                     <option value="Card">
+                     <option value="Tool">
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-2">
+               <div id="mod">
+                  <input class="form-control" list="mod-filter" id="mods" placeholder="Search Mods...">
+
+                  <datalist id="mod-filter">
+                     <option value="Minecraft">
+                     <option value="Refined Storage">
+                  </datalist>
+               </div>
+          </div>
+         </div>
+      </div>
+
+      <div id="information">
+         <div id="material-section"></div>
+      </div>
+   </div>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script type="module" src="index.js"></script>
+</body>
+
+</html>

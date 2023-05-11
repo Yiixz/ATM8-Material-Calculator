@@ -1,0 +1,1362 @@
+{
+   "sugar_cane": {
+      "id": "sugar_cane",
+      "name": "Sugar Cane",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/sugar_cane.png",
+      "link": "https://minecraft.fandom.com/wiki/Sugar_Cane",
+      "mod": "Minecraft"
+   },
+   "iron_ingot": {
+      "id": "iron_ingot",
+      "name": "Iron Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/iron_ingot.png",
+      "link": "https://minecraft.fandom.com/wiki/Iron_Ingot",
+      "mod": "Minecraft"
+   },
+   "hopper": {
+      "id": "hopper",
+      "name": "Hopper",
+      "showInList": true,
+      "category": "Misc/Block",
+      "img": "assets/hopper.png",
+      "link": "https://minecraft.fandom.com/wiki/Hopper",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "oak_chest",
+            "count": 1
+         },
+         {
+            "mat": "iron_ingot",
+            "count": 5
+         }
+      ]
+   },
+   "gold_ingot": {
+      "id": "gold_ingot",
+      "name": "Gold Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/gold_ingot.png",
+      "link": "https://minecraft.fandom.com/wiki/Gold_Ingot",
+      "mod": "Minecraft"
+   },
+   "diamond": {
+      "id": "diamond",
+      "name": "Diamond",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/diamond.png",
+      "link": "https://minecraft.fandom.com/wiki/Diamond",
+      "mod": "Minecraft"
+   },
+   "nether_quartz": {
+      "id": "nether_quartz",
+      "name": "Nether Quartz",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/nether_quartz.png",
+      "link": "https://minecraft.fandom.com/wiki/Nether_Quartz",
+      "mod": "Minecraft"
+   },
+   "glowstone_dust": {
+      "id": "glowstone_dust",
+      "name": "Glowstone Dust",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/glowstone_dust.png",
+      "link": "https://minecraft.fandom.com/wiki/Glowstone_Dust",
+      "mod": "Minecraft"
+   },
+   "ender_pearl": {
+      "id": "ender_pearl",
+      "name": "Ender Pearl",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/ender_pearl.png",
+      "link": "https://minecraft.fandom.com/wiki/Ender_Pearl",
+      "mod": "Minecraft"
+   },
+   "sand": {
+      "id": "sand",
+      "name": "Sand",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/sand.png",
+      "link": "https://minecraft.fandom.com/wiki/Sand",
+      "mod": "Minecraft"
+   },
+   "stone": {
+      "id": "stone",
+      "name": "Stone",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/stone.png",
+      "link": "https://minecraft.fandom.com/wiki/Stone",
+      "mod": "Minecraft"
+   },
+   "oak_plank": {
+      "id": "oak_plank",
+      "name": "Oak Plank",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/oak_plank.png",
+      "link": "https://minecraft.fandom.com/wiki/Planks",
+      "mod": "Minecraft"
+   },
+   "oak_chest": {
+      "id": "oak_chest",
+      "name": "Oak Chest",
+      "showInList": true,
+      "category": "Misc/Block",
+      "img": "assets/oak_chest.png",
+      "link": "https://minecraft.fandom.com/wiki/Chest",
+      "mod": "Minecraft",
+      "min_crafted": 1,
+      "mats": [
+         {
+            "mat": "oak_plank",
+            "count": 8
+         }
+      ]
+   },
+   "stick": {
+      "id": "stick",
+      "name": "Stick",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/stick.png",
+      "link": "Stick",
+      "mod": "Minecraft",
+      "min_crafted": 4,
+      "mats": [
+         {
+            "mat": "oak_plank",
+            "count": 2
+         }
+      ]
+   },
+   "slime_ball": {
+      "id": "slime_ball",
+      "name": "Slime Ball",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/slime_ball.png",
+      "link": "https://minecraft.fandom.com/wiki/Slimeball",
+      "mod": "Minecraft"
+   },
+   "string": {
+      "id": "string",
+      "name": "String",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/string.png",
+      "link": "https://minecraft.fandom.com/wiki/String",
+      "mod": "Minecraft"
+   },
+   "redstone": {
+      "id": "redstone",
+      "name": "Redstone",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/redstone.png",
+      "link": "https://minecraft.fandom.com/wiki/Redstone_Dust",
+      "mod": "Minecraft"
+   },
+   "redstone_torch": {
+      "id": "redstone_torch",
+      "name": "Redstone Torch",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/redstone_torch.png",
+      "link": "https://minecraft.fandom.com/wiki/Redstone_Torch",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "redstone",
+            "count": 1
+         },
+         {
+            "mat": "stick",
+            "count": 1
+         }
+      ]
+   },
+   "redstone_comparator": {
+      "id": "redstone_comparator",
+      "name": "Redstone Comparator",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/redstone_comparator.png",
+      "link": "https://minecraft.fandom.com/wiki/Redstone_Comparator",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "nether_quartz",
+            "count": 1
+         },
+         {
+            "mat": "redstone_torch",
+            "count": 3
+         },
+         {
+            "mat": "stone",
+            "count": 3
+         }
+      ]
+   },
+   "bucket": {
+      "id": "bucket",
+      "name": "Bucket",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/bucket.png",
+      "link": "https://minecraft.fandom.com/wiki/Bucket",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "iron_ingot",
+            "count": 1
+         }
+      ]
+   },
+   "leather": {
+      "id": "leather",
+      "name": "Leather",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/leather.png",
+      "mod": "Minecraft",
+      "link": ""
+   },
+   "paper": {
+      "id": "paper",
+      "name": "Paper",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/paper.png",
+      "link": "https://minecraft.fandom.com/wiki/Paper",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "sugar_cane",
+            "count": 1
+         }
+      ]
+   },
+   "book": {
+      "id": "book",
+      "name": "Book",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/book.png",
+      "link": "https://minecraft.fandom.com/wiki/Book",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "paper",
+            "count": 3
+         },
+         {
+            "mat": "leather",
+            "count": 1
+         }
+      ]
+   },
+   "bookshelf": {
+      "id": "bookshelf",
+      "name": "Bookshelf",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/bookshelf.png",
+      "link": "https://minecraft.fandom.com/wiki/Bookshelf",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "oak_plank",
+            "count": 6
+         },
+         {
+            "mat": "book",
+            "count": 3
+         }
+      ]
+   },
+   "silk_touch_enchant": {
+      "id": "silk_touch_enchant",
+      "name": "Silk Touch",
+      "showInList": false,
+      "category": "Misc/Enchant",
+      "img": "assets/enchanted_book.png",
+      "link": "https://minecraft.fandom.com/wiki/Silk_Touch",
+      "mod": "Minecraft"
+   },
+   "fortune_enchant": {
+      "id": "fortune_enchant",
+      "name": "Fortune Touch",
+      "showInList": false,
+      "category": "Misc/Enchant",
+      "img": "assets/enchanted_book.png",
+      "link": "https://minecraft.fandom.com/wiki/Fortune",
+      "mod": "Minecraft"
+   },
+   "glass": {
+      "id": "glass",
+      "name": "Glass",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/glass.png",
+      "link": "https://minecraft.fandom.com/wiki/Glass",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "sand",
+            "count": 1
+         }
+      ]
+   },
+   "crafting_table": {
+      "id": "crafting_table",
+      "name": "Crafting Table",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/crafting_table.png",
+      "link": "https://minecraft.fandom.com/wiki/Crafting_Table",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "oak_plank",
+            "count": 4
+         }
+      ]
+   },
+   "silicon": {
+      "id": "silicon",
+      "name": "Silicon",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/silicon.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/silicon.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "nether_quartz",
+            "count": 1
+         }
+      ]
+   },
+   "processor_binding": {
+      "id": "processor_binding",
+      "name": "Processor Binding",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/processor_binding.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/processor-binding.html",
+      "mod": "Refined Storage",
+      "min_crafted": 8,
+      "mats": [
+         {
+            "mat": "slime_ball",
+            "count": 1
+         },
+         {
+            "mat": "string",
+            "count": 2
+         }
+      ]
+   },
+   "quartz_enriched_iron": {
+      "id": "quartz_enriched_iron",
+      "name": "Quartz Enriched Iron",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/quartz_enriched_iron.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/quartz-enriched-iron.html",
+      "mod": "Refined Storage",
+      "min_crafted": 4,
+      "mats": [
+         {
+            "mat": "iron_ingot",
+            "count": 3
+         },
+         {
+            "mat": "nether_quartz",
+            "count": 1
+         }
+      ]
+   },
+   "raw_basic_processor": {
+      "id": "raw_basic_processor",
+      "name": "Raw Basic Processor",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/raw_basic_processor.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/raw-basic-processor.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "processor_binding",
+            "count": 1
+         },
+         {
+            "mat": "silicon",
+            "count": 1
+         },
+         {
+            "mat": "iron_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "raw_improved_processor": {
+      "id": "raw_improved_processor",
+      "name": "Raw Improved Processor",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/raw_improved_processor.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/raw-improved-processor.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "processor_binding",
+            "count": 1
+         },
+         {
+            "mat": "silicon",
+            "count": 1
+         },
+         {
+            "mat": "gold_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "raw_advanced_processor": {
+      "id": "raw_advanced_processor",
+      "name": "Raw Advanced Processor",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/raw_advanced_processor.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/raw-advanced-processor.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "processor_binding",
+            "count": 1
+         },
+         {
+            "mat": "silicon",
+            "count": 1
+         },
+         {
+            "mat": "diamond",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "construction_core": {
+      "id": "construction_core",
+      "name": "Construction Core",
+      "showInList": true,
+      "category": "Misc/Core",
+      "img": "assets/construction_core.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/construction-core.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_basic_processor",
+            "count": 1
+         },
+         {
+            "mat": "glowstone_dust",
+            "count": 1
+         }
+      ]
+   },
+   "destruction_core": {
+      "id": "destruction_core",
+      "name": "Destruction Core",
+      "showInList": true,
+      "category": "Misc/Core",
+      "img": "assets/destruction_core.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/destruction-core.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_basic_processor",
+            "count": 1
+         },
+         {
+            "mat": "nether_quartz",
+            "count": 1
+         }
+      ]
+   },
+   "1k_storage_part": {
+      "id": "1k_storage_part",
+      "name": "1K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/1k_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/1k-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "silicon",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "glass",
+            "count": 3
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "4k_storage_part": {
+      "id": "4k_storage_part",
+      "name": "4K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/4k_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/4k-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "1k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_basic_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "16k_storage_part": {
+      "id": "16k_storage_part",
+      "name": "16K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/16k_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/16k-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "4k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "64k_storage_part": {
+      "id": "64k_storage_part",
+      "name": "64K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/64k_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/64k-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "16k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "64k_fluid_storage_part": {
+      "id": "64k_fluid_storage_part",
+      "name": "64K Fluid Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/64k_fluid_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/64k-fluid-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "silicon",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "glass",
+            "count": 3
+         },
+         {
+            "mat": "bucket",
+            "count": 1
+         }
+      ]
+   },
+   "256k_fluid_storage_part": {
+      "id": "256k_fluid_storage_part",
+      "name": "256K Fluid Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/256k_fluid_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/256k-fluid-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "64k_fluid_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_basic_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "bucket",
+            "count": 1
+         }
+      ]
+   },
+   "1024k_fluid_storage_part": {
+      "id": "1024k_fluid_storage_part",
+      "name": "1024K Fluid Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/1024k_fluid_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/1024k-fluid-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "256k_fluid_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "bucket",
+            "count": 1
+         }
+      ]
+   },
+   "4096k_fluid_storage_part": {
+      "id": "4096k_fluid_storage_part",
+      "name": "4096K Fluid Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/4096k_fluid_storage_part.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/4096k-fluid-storage-part.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "1024k_fluid_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "bucket",
+            "count": 1
+         }
+      ]
+   },
+   "1k_storage_disk": {
+      "id": "1k_storage_disk",
+      "name": "1K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/1k_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/1k-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "1k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "4k_storage_disk": {
+      "id": "4k_storage_disk",
+      "name": "4K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/4k_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/4k-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "4k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "16k_storage_disk": {
+      "id": "16k_storage_disk",
+      "name": "16K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/16k_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/16k-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "16k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "64k_storage_disk": {
+      "id": "64k_storage_disk",
+      "name": "64K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/64k_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/64k-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "64k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "64k_fluid_storage_disk": {
+      "id": "64k_fluid_storage_disk",
+      "name": "64K Fluid Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/64k_fluid_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/64k-fluid-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "64k_fluid_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "256k_fluid_storage_disk": {
+      "id": "256k_fluid_storage_disk",
+      "name": "256K Fluid Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/256k_fluid_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/256k-fluid-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "256k_fluid_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "1024k_fluid_storage_disk": {
+      "id": "1024k_fluid_storage_disk",
+      "name": "1024K Fluid Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/1024k_fluid_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/1024k-fluid-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "1024k_fluid_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "4096k_fluid_storage_disk": {
+      "id": "4096k_fluid_storage_disk",
+      "name": "4096K Fluid Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/4096k_fluid_storage_disk.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/4096k-fluid-storage-disk.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "4096k_fluid_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "network_card": {
+      "id": "network_card",
+      "name": "Network Card",
+      "showInList": true,
+      "category": "Card",
+      "img": "assets/network_card.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/network-card.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 6
+         },
+         {
+            "mat": "paper",
+            "count": 2
+         }
+      ]
+   },
+   "security_card": {
+      "id": "security_card",
+      "name": "Security Card",
+      "showInList": true,
+      "category": "Card",
+      "img": "assets/security_card_inactive.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/security-card.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "network_card",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 6
+         }
+      ]
+   },
+   "upgrade": {
+      "id": "upgrade",
+      "name": "Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_improved_processor",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 6
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         }
+      ]
+   },
+   "speed_upgrade": {
+      "id": "speed_upgrade",
+      "name": "Speed Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/speed_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/speed-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "upgrade",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 5
+         },
+         {
+            "mat": "sugar",
+            "count": 3
+         }
+      ]
+   },
+   "range_upgrade": {
+      "id": "range_upgrade",
+      "name": "Range Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/range_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/range-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "upgrade",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 5
+         },
+         {
+            "mat": "ender_pearl",
+            "count": 3
+         }
+      ]
+   },
+   "crafting_upgrade": {
+      "id": "crafting_upgrade",
+      "name": "Crafting Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/crafting_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/crafting-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "upgrade",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 5
+         },
+         {
+            "mat": "construction_core",
+            "count": 1
+         },
+         {
+            "mat": "crafting_table",
+            "count": 2
+         }
+      ]
+   },
+   "stack_upgrade": {
+      "id": "stack_upgrade",
+      "name": "Stack Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/stack_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/stack-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "speed_upgrade",
+            "count": 4
+         },
+         {
+            "mat": "sugar",
+            "count": 5
+         }
+      ]
+   },
+   "silk_touch_upgrade": {
+      "id": "silk_touch_upgrade",
+      "name": "Silk Touch Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/silk_touch_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/silk-touch-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "upgrade",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 5
+         },
+         {
+            "mat": "bookshelf",
+            "count": 2
+         },
+         {
+            "mat": "silk_touch_enchant",
+            "count": 1
+         }
+      ]
+   },
+   "fortune_upgrade": {
+      "id": "fortune_upgrade",
+      "name": "Fortune Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/fortune_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/fortune-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "upgrade",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 5
+         },
+         {
+            "mat": "bookshelf",
+            "count": 2
+         },
+         {
+            "mat": "fortune_enchant",
+            "count": 1
+         }
+      ]
+   },
+   "regulator_upgrade": {
+      "id": "regulator_upgrade",
+      "name": "Regulator Upgrade",
+      "showInList": true,
+      "category": "Card/Upgrade",
+      "img": "assets/regulator_upgrade.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/regulator-upgrade.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "upgrade",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 5
+         },
+         {
+            "mat": "redstone_comparator",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "rs_wrench": {
+      "id": "rs_wrench",
+      "name": "Wrench",
+      "showInList": true,
+      "category": "Tool",
+      "img": "assets/rs_wrench.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/wrench.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_basic_processor",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 6
+         }
+      ]
+   },
+   "pattern": {
+      "id": "pattern",
+      "name": "Pattern",
+      "showInList": true,
+      "category": "Misc/Upgrade",
+      "img": "assets/pattern.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/pattern.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 3
+         },
+         {
+            "mat": "redstone",
+            "count": 3
+         }
+      ]
+   },
+   "filter": {
+      "id": "filter",
+      "name": "Filter",
+      "showInList": true,
+      "category": "Misc/Upgrade",
+      "img": "assets/filter.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/filter.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 4
+         },
+         {
+            "mat": "hopper",
+            "count": 1
+         },
+         {
+            "mat": "paper",
+            "count": 4
+         }
+      ]
+   },
+   "machine_casing": {
+      "id": "machine_casing",
+      "name": "Machine Casing",
+      "showInList": true,
+      "category": "Misc/Block",
+      "img": "assets/machine_casing.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/machine-casing.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 8
+         },
+         {
+            "mat": "stone",
+            "count": 1
+         }
+      ]
+   },
+   "grid": {
+      "id": "grid",
+      "name": "Grid",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/grid.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/grid.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "construction_core",
+            "count": 1
+         },
+         {
+            "mat": "destruction_core",
+            "count": 1
+         },
+         {
+            "mat": "machine_casing",
+            "count": 1
+         },
+         {
+            "mat": "construction_core",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "glass",
+            "count": 3
+         }
+      ]
+   },
+   "rs_controller": {
+      "id": "rs_controller",
+      "name": "Controller",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/rs_controller.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/controller.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         },
+         {
+            "mat": "machine_casing",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 4
+         },
+         {
+            "mat": "silicon",
+            "count": 3
+         }
+      ]
+   },
+   "portable_grid": {
+      "id": "portable_grid",
+      "name": "Portable Grid",
+      "showInList": true,
+      "category": "Misc/Tool",
+      "img": "assets/portable_grid.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/portable-grid.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "rs_controller",
+            "count": 1
+         },
+         {
+            "mat": "grid",
+            "count": 1
+         },
+         {
+            "mat": "fluid_grid",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 6
+         }
+      ]
+   }
+}
