@@ -75,8 +75,6 @@ window.onload = function() {
          row.appendChild(col);
       }
 
-      //selectedItem = items["quartz_enriched_iron"];
-
       materialContainer.appendChild(row);
 
       document.getElementById("material-section").appendChild(materialContainer);
@@ -89,8 +87,6 @@ window.onload = function() {
 
       let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
       let tooltipList = tooltipTriggerList.map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
-
-      displayList(selectedItem);
    });
 }
 

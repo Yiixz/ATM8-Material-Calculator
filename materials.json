@@ -21,7 +21,7 @@
       "id": "hopper",
       "name": "Hopper",
       "showInList": true,
-      "category": "Misc/Block",
+      "category": "Storage/Block",
       "img": "assets/hopper.png",
       "link": "https://minecraft.fandom.com/wiki/Hopper",
       "mod": "Minecraft",
@@ -84,6 +84,54 @@
             "count": 9
          }
       ]
+   },
+   "nether_star": {
+      "id": "nether_star",
+      "name": "Nether Star",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/nether_star.png",
+      "link": "https://minecraft.fandom.com/wiki/Nether_Star",
+      "mod": "Minecraft"
+   },
+   "allthemodium_ingot": {
+      "id": "allthemodium_ingot",
+      "name": "Allthemodium Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/allthemodium_ingot.png",
+      "mod": "AllTheModium"
+   },
+   "allthemodium_nugget": {
+      "id": "allthemodium_nugget",
+      "name": "Allthemodium Nugget",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/allthemodium_nugget.png",
+      "mod": "AllTheModium",
+      "min_crafted": 9,
+      "mats": [
+         {
+            "mat": "allthemodium_ingot",
+            "count": 1
+         }
+      ]
+   },
+   "vibranium_ingot": {
+      "id": "vibranium_ingot",
+      "name": "Vibranium Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/vibranium_ingot.png",
+      "mod": "AllTheModium"
+   },
+   "unobtanium_ingot": {
+      "id": "unobtanium_ingot",
+      "name": "Unobtanium Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/unobtanium_ingot.png",
+      "mod": "AllTheModium"
    },
    "nether_quartz": {
       "id": "nether_quartz",
@@ -152,11 +200,10 @@
       "id": "oak_chest",
       "name": "Oak Chest",
       "showInList": true,
-      "category": "Misc/Block",
+      "category": "Storage/Block",
       "img": "assets/oak_chest.png",
       "link": "https://minecraft.fandom.com/wiki/Chest",
       "mod": "Minecraft",
-      "min_crafted": 1,
       "mats": [
          {
             "mat": "oak_plank",
@@ -172,7 +219,6 @@
       "img": "assets/piston.png",
       "link": "https://minecraft.fandom.com/wiki/Piston",
       "mod": "Minecraft",
-      "min_crafted": 1,
       "mats": [
          {
             "mat": "iron_ingot",
@@ -538,6 +584,33 @@
          }
       ]
    },
+   "raw_withering_processor": {
+      "id": "raw_withering_processor",
+      "name": "Raw Withering Processor",
+      "showInList": true,
+      "category": "Misc",
+      "img": "assets/raw_withering_processor.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "processor_binding",
+            "count": 1
+         },
+         {
+            "mat": "silicon",
+            "count": 1
+         },
+         {
+            "mat": "nether_star",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
    "construction_core": {
       "id": "construction_core",
       "name": "Construction Core",
@@ -676,6 +749,222 @@
          },
          {
             "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "256k_storage_part": {
+      "id": "256k_storage_part",
+      "name": "256K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/256k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "64k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "1024k_storage_part": {
+      "id": "1024k_storage_part",
+      "name": "1024K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/1024k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "256k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "4096k_storage_part": {
+      "id": "4096k_storage_part",
+      "name": "4096K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/4096k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "1024k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "allthemodium_nugget",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "16384k_storage_part": {
+      "id": "16384k_storage_part",
+      "name": "16384K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/16384k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "4096k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "allthemodium_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "65536k_storage_part": {
+      "id": "65536k_storage_part",
+      "name": "65536K Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/65536k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "16384k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 4
+         },
+         {
+            "mat": "allthemodium_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "262m_storage_part": {
+      "id": "262m_storage_part",
+      "name": "262M Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/262144k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "65536k_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_withering_processor",
+            "count": 4
+         },
+         {
+            "mat": "vibranium_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "1048m_storage_part": {
+      "id": "1048m_storage_part",
+      "name": "1048M Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/1048576k_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "262m_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_withering_processor",
+            "count": 4
+         },
+         {
+            "mat": "unobtanium_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         }
+      ]
+   },
+   "infinite_storage_part": {
+      "id": "infinite_storage_part",
+      "name": "Infinite Storage Part",
+      "showInList": true,
+      "category": "Storage/Part",
+      "img": "assets/infinite_storage_part.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "1048m_storage_part",
+            "count": 3
+         },
+         {
+            "mat": "raw_withering_processor",
+            "count": 4
+         },
+         {
+            "mat": "unobtanium_ingot",
             "count": 1
          },
          {
@@ -897,6 +1186,254 @@
          {
             "mat": "redstone",
             "count": 3
+         }
+      ]
+   },
+   "256k_storage_disk": {
+      "id": "256k_storage_disk",
+      "name": "256K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/256k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "256k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "1024k_storage_disk": {
+      "id": "1024k_storage_disk",
+      "name": "1024K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/1024k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "1024k_storage_disk",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "4096k_storage_disk": {
+      "id": "4096k_storage_disk",
+      "name": "4096K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/4096k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "4096k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "16384k_storage_disk": {
+      "id": "16384k_storage_disk",
+      "name": "16384K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/16384k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "16384k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "65536k_storage_disk": {
+      "id": "65536k_storage_disk",
+      "name": "65536K Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/65536k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "65536k_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "262m_storage_disk": {
+      "id": "262m_storage_disk",
+      "name": "262M Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/262144k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "262m_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "1048k_storage_disk": {
+      "id": "1048k_storage_disk",
+      "name": "1048M Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/1048576k_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "1048m_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         }
+      ]
+   },
+   "infinite_storage_disk": {
+      "id": "infinite_storage_disk",
+      "name": "Infinite Storage Disk",
+      "showInList": true,
+      "category": "Storage/Disk",
+      "img": "assets/infinite_storage_disk.png",
+      "link": "https://melanx.github.io/Mod-Wikis/extra-disks/",
+      "mod": "Extra Disks",
+      "mats": [
+         {
+            "mat": "infinite_storage_part",
+            "count": 1
+         },
+         {
+            "mat": "quartz_enriched_iron",
+            "count": 3
+         },
+         {
+            "mat": "glass",
+            "count": 2
+         },
+         {
+            "mat": "raw_improved_processor",
+            "count": 2
+         },
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
          }
       ]
    },
@@ -1370,6 +1907,29 @@
          {
             "mat": "glass",
             "count": 3
+         }
+      ]
+   },
+   "fluid_grid": {
+      "id": "fluid_grid",
+      "name": "Fluid Grid",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/fluid_grid.png",
+      "link": "https://refinedmods.com/refined-storage/wiki/fluid-grid.html",
+      "mod": "Refined Storage",
+      "mats": [
+         {
+            "mat": "raw_advanced_processor",
+            "count": 1
+         },
+         {
+            "mat": "grid",
+            "count": 1
+         },
+         {
+            "mat": "bucket",
+            "count": 1
          }
       ]
    },
