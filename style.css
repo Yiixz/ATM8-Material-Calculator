@@ -177,5 +177,5 @@ h1 {
 
 #material-container .btn:active {
    transform: translate(0, 3px);
-   border-width: 1px 1px 3px 1px;
+   border-width: 2px 2px 3px 2px;
 }
