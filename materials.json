@@ -45,6 +45,22 @@
       "link": "https://minecraft.fandom.com/wiki/Gold_Ingot",
       "mod": "Minecraft"
    },
+   "uranium_ingot": {
+      "id": "uranium_ingot",
+      "name": "Uranium Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/uranium_ingot.png",
+      "mod": "Bigger Terminals"
+   },
+   "graphite_ingot": {
+      "id": "graphite_ingot",
+      "name": "Graphite Ingot",
+      "showInList": false,
+      "category": "Misc",
+      "img": "assets/graphite_ingot.png",
+      "mod": "Bigger Terminals"
+   },
    "diamond": {
       "id": "diamond",
       "name": "Diamond",
@@ -53,6 +69,21 @@
       "img": "assets/diamond.png",
       "link": "https://minecraft.fandom.com/wiki/Diamond",
       "mod": "Minecraft"
+   },
+   "diamond_block": {
+      "id": "diamond_block",
+      "name": "Diamond Block",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/diamond_block.png",
+      "link": "https://minecraft.fandom.com/wiki/Diamond_Block",
+      "mod": "Minecraft",
+      "mats": [
+         {
+            "mat": "diamond",
+            "count": 9
+         }
+      ]
    },
    "nether_quartz": {
       "id": "nether_quartz",
@@ -99,6 +130,15 @@
       "link": "https://minecraft.fandom.com/wiki/Stone",
       "mod": "Minecraft"
    },
+   "cobblestone": {
+      "id": "cobblestone",
+      "name": "Cobblestone",
+      "showInList": false,
+      "category": "Misc/Block",
+      "img": "assets/cobblestone.png",
+      "link": "https://minecraft.fandom.com/wiki/Cobblestone",
+      "mod": "Minecraft"
+   },
    "oak_plank": {
       "id": "oak_plank",
       "name": "Oak Plank",
@@ -121,6 +161,34 @@
          {
             "mat": "oak_plank",
             "count": 8
+         }
+      ]
+   },
+   "piston": {
+      "id": "piston",
+      "name": "Piston",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/piston.png",
+      "link": "https://minecraft.fandom.com/wiki/Piston",
+      "mod": "Minecraft",
+      "min_crafted": 1,
+      "mats": [
+         {
+            "mat": "iron_ingot",
+            "count": 1
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         },
+         {
+            "mat": "oak_plank",
+            "count": 3
+         },
+         {
+            "mat": "cobblestone",
+            "count": 4
          }
       ]
    },
@@ -1356,6 +1424,99 @@
          {
             "mat": "quartz_enriched_iron",
             "count": 6
+         }
+      ]
+   },
+   "reactor_casing": {
+      "id": "reactor_casing",
+      "name": "Reactor Casing",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/reactor_casing.png",
+      "link": "https://biggerseries.net/biggerreactors/reactor/casing",
+      "mod": "Bigger Terminals",
+      "min_crafted": "4",
+      "mats": [
+         {
+            "mat": "uranium_ingot",
+            "count": 1
+         },
+         {
+            "mat": "iron_ingot",
+            "count": 4
+         },
+         {
+            "mat": "graphite_ingot",
+            "count": 4
+         }
+      ]
+   },
+   "reactor_terminal": {
+      "id": "reactor_terminal",
+      "name": "Reactor Terminal",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/reactor_terminal.png",
+      "link": "https://biggerseries.net/biggerreactors/reactor/terminal",
+      "mod": "Bigger Terminals",
+      "mats": [
+         {
+            "mat": "reactor_casing",
+            "count": 4
+         },
+         {
+            "mat": "uranium_ingot",
+            "count": 2
+         },
+         {
+            "mat": "redstone",
+            "count": 1
+         },
+         {
+            "mat": "diamond",
+            "count": 1
+         }
+      ]
+   },
+   "reactor_power_tap": {
+      "id": "reactor_power_tap",
+      "name": "Reactor Power Tap",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/reactor_power_tap.png",
+      "link": "https://biggerseries.net/biggerreactors/reactor",
+      "mod": "Bigger Terminals",
+      "mats": [
+         {
+            "mat": "reactor_casing",
+            "count": 4
+         },
+         {
+            "mat": "redstone",
+            "count": 4
+         }
+      ]
+   },
+   "reactor_access_port": {
+      "id": "reactor_access_port",
+      "name": "Reactor Access Port",
+      "showInList": true,
+      "category": "Block",
+      "img": "assets/reactor_access_port.png",
+      "link": "https://biggerseries.net/biggerreactors/reactor",
+      "mod": "Bigger Terminals",
+      "mats": [
+         {
+            "mat": "reactor_casing",
+            "count": 4
+         },
+         {
+            "mat": "oak_chest",
+            "count": 1
+         },
+         {
+            "mat": "piston",
+            "count": 1
          }
       ]
    }

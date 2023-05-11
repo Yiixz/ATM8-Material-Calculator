@@ -68,7 +68,8 @@ window.onload = function() {
             listSection.style.width = "30%";
          };
 
-         button.onauxclick = () => window.open(item.link);
+         if (item.link)
+            button.onauxclick = () => window.open(item.link);
 
          col.appendChild(button);
          row.appendChild(col);
@@ -239,7 +240,8 @@ function displayItem(item, total)
    matImage.style.width = "30px";
    matImage.style.height = "30px";
 
-   matImage.onclick = () => window.open(item.link);
+   if (item.link)
+      matImage.onclick = () => window.open(item.link);
 
    imageCol.appendChild(matImage);
 
@@ -253,8 +255,10 @@ function displayItem(item, total)
    tdNameText.setAttribute("class", "tdNameText align-middle");
    tdNameText.style.display = "inline-block";
    tdNameText.style.margin = "0";
+   
 
-   tdNameText.onclick = () => window.open(item.link);
+   if (item.link)
+      tdNameText.onclick = () => window.open(item.link);
 
    tdName.appendChild(tdNameText);
 
